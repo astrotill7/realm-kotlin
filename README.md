@@ -1,18 +1,10 @@
-> [!WARNING]
-> We announced the deprecation of Atlas Device Sync + Realm SDKs in September 2024. For more information please see:
-> - [SDK Deprecation](https://www.mongodb.com/docs/atlas/device-sdks/deprecation/)
-> - [Device Sync Deprecation](https://www.mongodb.com/docs/atlas/app-services/sync/device-sync-deprecation/)
->
-> For a version of Realm Kotlin without sync features, install version `3.0.0+` or see the `community` git branch.
-
-
 <picture>
     <source srcset="./images/logo-dark.svg" media="(prefers-color-scheme: dark)" alt="realm by MongoDB">
     <img src="./images/logo.svg" alt="realm by MongoDB">
 </picture>
 
-[![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/io/realm/kotlin/io.realm.kotlin.gradle.plugin/maven-metadata.xml.svg?colorB=ff6b00&label=Gradle%20Plugin%20Portal&versionPrefix=2)](https://plugins.gradle.org/plugin/io.realm.kotlin)
-[![Maven Central](https://img.shields.io/maven-central/v/io.realm.kotlin/gradle-plugin/2.3.0?colorB=4dc427&label=Maven%20Central)](https://search.maven.org/artifact/io.realm.kotlin/gradle-plugin)
+[![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/io/realm/kotlin/io.realm.kotlin.gradle.plugin/maven-metadata.xml.svg?colorB=ff6b00&label=Gradle%20Plugin%20Portal)](https://plugins.gradle.org/plugin/io.realm.kotlin)
+[![Maven Central](https://img.shields.io/maven-central/v/io.realm.kotlin/gradle-plugin?colorB=4dc427&label=Maven%20Central)](https://search.maven.org/artifact/io.realm.kotlin/gradle-plugin)
 [![Kotlin](https://img.shields.io/badge/kotlin-2.0.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://github.com/realm/realm-kotlin/blob/master/LICENSE)
 
@@ -26,7 +18,6 @@ This repository holds the source code for the Kotlin SDK for Realm, which runs o
 * **Intuitive to Developers:** Realm’s object-oriented data model is simple to learn, doesn’t need an ORM, and lets you write less code.
 * **Built for Mobile:** Realm is fully-featured, lightweight, and efficiently uses memory, disk space, and battery life.
 * **Designed for Offline Use:** Realm’s local database persists data on-disk, so apps work as well offline as they do online.
-* **[Atlas Device Sync](https://www.mongodb.com/docs/atlas/app-services/sync/)**: Makes it simple to keep data in sync across users, devices, and your backend in real-time. Get started for free with [a template application](https://github.com/mongodb/template-app-kotlin-todo) and [create the cloud backend](http://mongodb.com/realm/register?utm_medium=github_atlas_CTA&utm_source=realm_kotlin_github).
 
 # General Availability 
 
@@ -45,7 +36,7 @@ If you are migrating from [Realm Java](https://github.com/realm/realm-java), ple
 
 ## Installation
 
-Installation differs slightly depending on the type of project and whether or not you are using Device Sync. See the details in the documentation:
+Installation differs slightly depending on the type of project. See the details in the documentation:
 
 * [Android](https://www.mongodb.com/docs/atlas/device-sdks/sdk/kotlin/install/#std-label-kotlin-install-android)
 * [Kotlin Multiplatform](https://www.mongodb.com/docs/atlas/device-sdks/sdk/kotlin/install/#std-label-kotlin-install-kotlin-multiplatform)
